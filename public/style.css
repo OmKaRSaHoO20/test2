@@ -1,0 +1,551 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Zilla Slab', serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Graymargin{
+    height: .1rem;
+    background-color:rgb(107, 141, 142);
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+/* Zero Starts */
+.Container0 img{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.Container0 h2{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+/* First starts */
+.Header-nav{
+    display: flex;
+    width: 100%;
+    height: 12rem;
+}
+.left-nav{
+    float: left;
+    width: 50%;
+}
+.left-nav img{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    height: 8rem;
+}
+.right-nav{
+    width: 50%;
+}
+.nav{
+    text-transform:uppercase;
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+}
+.nav-item{
+    padding-right: 2rem;
+}
+
+.container1-2nd{
+    margin: 1.5rem;
+    display: flex;
+}
+.img-Float{
+    width: 58%;
+}
+.container1-2nd .img-Float img{
+    width: 100%;
+    height: 100%;
+}
+.container1-2nd .text-float{
+    padding-top: 17rem;
+    text-align: center;
+    background: #fcf4eb;
+    width: 40%;
+    margin-left: 2.5rem;
+}
+.text-float h2{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.text-float p{
+    font-size: 1.8rem;
+    padding-bottom: 5rem;
+}
+.text-float a{
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 1rem;
+}
+.container1-3rd{
+    transform: all;
+    transition-duration: 2s;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    padding-left: 18rem;
+    text-align: center;
+}
+.container1-3rd .botfloat{
+    overflow: hidden;
+    height: 30rem;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.botfloat img{
+    overflow: hidden;
+    transition: all .5s linear;
+    height: 22rem;
+}
+.botfloat img:hover{
+    transform: scale(1.1);
+}
+.float-img{
+    overflow: hidden;
+    margin-bottom: 2rem;
+    height: 22rem;
+}
+/* First Endss */
+
+/* Second starts */
+.container2-2nd{
+    display: flex;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 20rem;
+}
+.container2 .Head2{
+    margin-top: 2rem;
+    text-align: center;
+}
+.container2 .Head2 p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.container2 .Head2 h2{
+    font-size: 3rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    margin-bottom: 8rem;
+}
+.container2-2nd .container2-img-left{
+    height: 55rem;
+    width: 50%;
+}
+.container2-2nd .container2-img-left img{
+    height: 60rem;
+    width: 100%;
+}
+.container2-2nd .container2-text{
+    height: 60rem;
+    width: 60rem;
+    background-color: #e6cebe;
+    text-align: center;
+    margin-left: 2rem;
+}
+.container2-text h2{
+    margin-top: 20rem;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+.container2-text p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.container2-text a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 1rem;
+}
+#pad{
+    margin-bottom: 4rem;
+}
+/* Second Ends */
+
+/* Third Starts */
+.container3{
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+.container3 > p{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+.container3 .container3-2nd{
+    display: flex;
+    margin-bottom: 5rem;
+}
+.item2 img{
+    width: 70rem;
+}
+.container3 .container3-2nd .container3-text-left{
+    display: flex;
+    width: 50rem;
+    overflow: hidden;
+}
+.container3 .container3-2nd .container3-text-left .item-1{
+    width: 47rem;
+    background-color:#fcf4eb;
+    text-align: center;
+    overflow: hidden;
+    height: inherit;
+}
+.item-1 #title{
+    margin-top: 15rem;
+    font-size: 3rem;
+}
+.item-1 #content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+}
+.item-1 a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 1rem;
+}
+.container3 .container3-2nd .container3-img-right{
+    display: flex;
+    width: 70rem;
+    overflow: hidden;
+}
+/* Third Ends */
+
+/* Fourth Starts */
+.container4 > h2{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.container4 > p{
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.container4-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.4fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 5rem;
+    height: 49rem;
+    overflow: hidden;
+}
+.Jewel1{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/ring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel1 p{
+    margin-top: 17rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.Jewel2{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/earring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel2 p{
+    margin-top: 17rem;
+    text-align: center;
+    color: #885858;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.Jewel3{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/pendant.jpg);
+    grid-row: 1/3;
+    grid-column: 3/4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2fr;
+}
+.Jewel3 p{
+    text-align: center;
+    margin-top: 40rem;
+    font-size: 2rem;
+    color: white;
+}
+.Jewel4{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/mangalsutra.jpg);
+    grid-column: 4/6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel4 p{
+    margin-top: 10rem;
+    color: white;
+    margin-right: 25rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.Jewel5{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/bracelet.jpg);
+    grid-column: 1/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel5 p{
+    margin-top: 10rem;
+    color: #411701;
+    margin-right: 25rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.Jewel6{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/necklace.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel6 p{
+    margin-top: 17rem;
+    text-align: center;
+    color: #885858;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.Jewel7{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/categories/chain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Jewel7 p{
+    margin-top: 17rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+/* Fourth Ends */
+
+/* Yt starts */
+.Ytcontainer h2{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.Ytcontainer > p{
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.Ytcontainer .Video-Holder{
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    height: 45rem;
+    margin-bottom: 5rem;
+}
+.Yt iframe{
+    margin: 0;
+    padding: 0;
+    width: 80rem;
+    height: 45rem;
+    margin-right: 10rem;
+}
+.Yt-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 60rem;
+}
+.Yt-grid p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20rem;
+}
+.Yt-grid1{
+    background-image: url(https://thumbs.nosto.com/quick/magento-df633176/7/6541/f2b35b0711e64eb2bb357366cc3df502976cb306c069c0f82e233aaecbeaf15fa/A);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25rem;
+}
+.Yt-grid2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://www.candere.com/media/catalog/product/l/c/lcr0141_1.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=310&width=310&canvas=310:310);
+}
+.Yt-grid3{
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-image: url(https://www.candere.com/media/catalog/product/l/c/lcr0142_3.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=310&width=310&canvas=310:310);
+}
+.Yt-grid4{
+    background-image: url(https://www.candere.com/media/catalog/product/l/c/lcr0130_3.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=310&width=310&canvas=310:310);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+/* Yt Ends */
+
+/* Trple Starts */
+.triplecontain h6{
+    font-size: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.triplecontain p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.Triple-flex{
+    text-align: center;
+    display: flex;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+    margin-right: 7rem;
+}
+.Triple-flex a{
+    font-size: 1.7rem;
+    color:#2FBCCC;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Items1{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/guide/Diamond_Guide.jpg);
+    margin-right: 3rem;
+    width: 45rem;
+    height: 26rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Gems-title{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+#Gems-para{
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.Items2{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/guide/Gemstone_Guide.jpg);
+    margin-right: 3rem;
+    height: 26rem;
+    background-size: cover;
+    height: inherit;
+    width: 45rem;
+}
+.Items3{
+    background-image: url(https://www.candere.com/static/version1656433397/frontend/Codilar/candere_desktop/en_US/Magento_Cms/images/guide/Metal_Guide.jpg);
+    height: 26rem;
+    background-size: cover;
+    width: 45rem;
+    height: inherit;
+}
+/* Trple Ends */
+
+
+.seventhsec{
+    margin-top: 10rem;
+    text-align: center;
+    width: 100%;
+    background-color: #e6cebe;
+}
+.seventhsec a{
+    text-decoration: none; 
+    color: black;
+}
+.centre{
+    margin-bottom: 2rem;
+}
+.flex{
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+.flex1{
+    padding: 4rem;
+    font-size: 2rem;
+    /* color:rgb(80, 80, 80); */
+    color: black;
+}
+.flex1 a{
+    padding-left: 2rem;
+}
+#h6{
+    font-size: 1.2rem;
+    color: black;
+    /* color: rgb(92, 92, 92); */
+    font-weight: 100;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.fab{
+    color: black;
+    /* color: rgb(92, 92, 92); */
+    height: 10%;
+}
+.btn{
+    padding: 1.5rem 2rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border: .2rem solid black;
+}
+#us{
+    color: black;
+    padding-left: 3rem;
+}
+#img{
+    position: relative;
+    bottom: 4.4rem;
+    width: 15rem;
+} 
+#p{
+    font-size: 2.2rem;
+}
+i{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
