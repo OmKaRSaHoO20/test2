@@ -1,14 +1,16 @@
 import React from 'react';
 
 function First(){
+
     return <div>
         <div className='container1'> 
             <header className='Header-nav'>
                 <div className='left-nav'>
+                    <i class="fa-solid fa-bars"></i>
                     <img src='https://cdn.shopify.com/s/files/1/2026/1561/files/LogoFinal_PNG_200X100_200x.png?v=1599809410' alt='logo' />
                 </div>
                 <div className='right-nav'>
-                    <ul class="nav" >
+                    <ul class="nav" id='menu-list'>
                         <li class="nav-item">
                             <p>New Arrivals</p>
                         </li>
@@ -65,10 +67,10 @@ function First(){
                     </div>
                     <p>Pendant Sets</p>
                 </div>
-                <div className='botfloat'>
+                <div className='botfloat' id='last'>
                     <div className='float-img'>
                         <img src='https://cdn.shopify.com/s/files/1/2026/1561/files/TBX0008X_200x.jpg?v=1645521750' />
-                </div>
+                    </div>
                     <p>Bangle & Bracelets</p>
                 </div>
             </div>

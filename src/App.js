@@ -13,19 +13,19 @@ function App() {
   return <div>
         <First />
         <p className='Graymargin'></p>
-        <Zero />
+        <Zero /> 
+        <p className='/Graymargin'></p>
+        <Second /> 
         <p className='Graymargin'></p>
-        <Second />
-        <p className='Graymargin'></p>
-        <Third />
+        <Third /> 
         <p className='Graymargin'></p>
         <Fourth />
         <p className='Graymargin'></p>
-        <Youtube />
+        <Youtube /> 
         <p className='Graymargin'></p>
-        <Triple />
-        {/* <p className='Graymargin'></p> */}
-        <Footer />
+        <Triple /> 
+        <p className='Graymargin'></p>
+        <Footer /> 
     </div>
 }
 

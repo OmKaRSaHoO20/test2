@@ -14,7 +14,7 @@ function Youtube(){
                         <p>Queens Tiara Crown Diamond Ring</p>
                     </div>
                     <div className='Yt-grid2'>
-                        <p>Lilas Diamond Ring</p>
+                        <a href='#'><p>Lilas Diamond Ring</p></a>
                     </div>
                     <div className='Yt-grid3'>
                         <p>Begony Diamond Ring</p>

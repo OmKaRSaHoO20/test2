@@ -33,7 +33,7 @@ function Third(){
                         <p id='content'>
                             Shine this season with our new collections
                         </p>
-                        <a href='#'>Shop now</a>
+                        <a href='#' id='A-link'>Shop now</a>
                     </div></SwiperSlide>
                     <SwiperSlide>
                     <div className='item-1'>
@@ -43,7 +43,7 @@ function Third(){
                         <p id='content'>
                             Choose from necklace sets, chokers, earrings, and more.
                         </p>
-                        <a href='#'>Shop now</a>
+                        <a href='#' id='A-link'>Shop now</a>
                     </div></SwiperSlide>
                     </Swiper>
                 </div>
