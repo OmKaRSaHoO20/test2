@@ -537,6 +537,7 @@ a{
     color: black;
     width: 100%;
     font-size: 2rem;
+    /* margin-top: 10rem; */
     border-radius: 3rem;
     border: .2rem solid black;
 }
@@ -581,7 +582,7 @@ i{
     }
     .left-nav img{
         padding-top: 2rem;
-        padding-left: 19rem;
+        padding-left: 80%;
         height: 8rem;
         align-items: center;
     }
@@ -787,7 +788,8 @@ i{
     }
     .Items1 ,.Items2, .Items3{
         width: 100%;
-        /* height: 40%; */
+        height: auto;
+        padding-bottom: 6rem;
     }
 
     /* Footer */
